@@ -1,4 +1,7 @@
+@use './sections_landing/p1';
 @use './sections_landing/p2';
+@use './sections_landing/p3';
+@use './sections_landing/p4';
 
 /* Estilos generales */
 * {
@@ -100,58 +103,6 @@ button {
 }
 /* fin del main página contact_mobile.html */
 
-/*comienzo landing_mobile.html main Rosana*/
-
-.card {
-  background-color: white;
-  border-radius: 25px;
-  display: flex;
-  flex-direction: column;
-  margin: 15px;
-}
-
-.card img {
-  width: 300px;
-}
-.piefoto {
-  margin: 20px;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-.precio {
-  color: #f85e9f;
-}
-.destino {
-  color: black;
-}
-.p2_maintop {
-  display: flex;
-  align-items: center;
-  margin-top: 50px;
-  flex-direction: column;
-}
-
-/*Fin landing_mobile.html main Rosana*/
-
-/*comienzo landing_mobile.html main Cande*/
-.imagenes_predefinidas {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.chica {
-  width: 398px;
-  height: 318.5px;
-  margin-block: 32px;
-}
-
-.iglesia {
-  width: 350px;
-  height: 438.9px;
-  margin-block: 32px;
-}
-/*Fin landing_mobile.html main Cande*/
-
 /*comienzo landing_mobile.html main Cipa*/
 .container {
   width: 75%;
@@ -211,6 +162,59 @@ button {
   font-weight: bold;
 }
 /*Fin landing_mobile.html main Cipa*/
+
+/*comienzo landing_mobile.html main Rosana*/
+
+.card {
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.card img {
+  width: 300px;
+}
+.piefoto {
+  margin: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.precio {
+  color: #f85e9f;
+}
+.destino {
+  color: black;
+}
+.p2_maintop {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  flex-direction: column;
+}
+
+/*Fin landing_mobile.html main Rosana*/
+
+/*comienzo landing_mobile.html main Cande*/
+.imagenes_predefinidas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chica {
+  width: 398px;
+  height: 318.5px;
+  margin-block: 32px;
+}
+
+.iglesia {
+  width: 350px;
+  height: 438.9px;
+  margin-block: 32px;
+}
+/*Fin landing_mobile.html main Cande*/
+
 
 /*comienzo landing_mobile.html main Cami*/
 .beneficios{
