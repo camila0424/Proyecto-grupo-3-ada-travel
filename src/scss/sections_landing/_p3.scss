@@ -1,4 +1,5 @@
 /*comienzo landing_mobile.html main Cande*/
+
 .imagenes_predefinidas {
   display: flex;
   flex-direction: column;
@@ -15,4 +16,23 @@
   height: 438.9px;
   margin-block: 32px;
 }
+
+@media (max-width: 430px) {
+  .imagenes_predefinidas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .chica {
+    width: 398px;
+    height: 318.5px;
+    margin-block: 32px;
+  }
+  
+  .iglesia {
+    width: 350px;
+    height: 438.9px;
+    margin-block: 32px;
+  }
+  }
 /*Fin landing_mobile.html main Cande*/
