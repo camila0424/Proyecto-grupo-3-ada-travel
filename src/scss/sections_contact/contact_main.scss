@@ -1,0 +1,39 @@
+.frame {
+  background-color: rgba(250, 205, 73, 0.08);
+  width: 425px;
+  height: 819px;
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 128px 64px;
+}
+
+h2 {
+  font-size: inter;
+  color: #f85e9f;
+  font-size: 23px;
+  letter-spacing: 4.6px;
+  padding-block: 42.8px;
+}
+
+input {
+  height: fixed;
+  width: auto;
+  margin-block: 42.8px 42.8px;
+  font-size: 23px;
+  font-family: Roboto;
+}
+button {
+  background-color: #5d50c6;
+  padding: 32px 64px;
+  border-radius: 32px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 23px;
+}
+
+.mapa {
+  width: 424px;
+  height: 392px;
+}
