@@ -1,5 +1,4 @@
 /*comienzo landing_mobile.html main Cande*/
-
 .imagenes_predefinidas {
   display: flex;
   flex-direction: column;
@@ -17,22 +16,176 @@
   margin-block: 32px;
 }
 
-@media (max-width: 430px) {
+.caja_chica {
+  display: none;
+}
+.caja_iglesia {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
   .imagenes_predefinidas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   }
+
   .chica {
-    width: 398px;
-    height: 318.5px;
-    margin-block: 32px;
+  width: 398px;
+  height: 318.5px;
+  margin-block: 32px;
   }
-  
+    
   .iglesia {
     width: 350px;
     height: 438.9px;
     margin-block: 32px;
+    }
+
+  .caja_chica {
+    display: none;
+    }
+  
+  .caja_iglesia {
+    display: none;
   }
   }
+
+@media (width > 1200px) {
+  .imagenes_predefinidas {
+    border: solid;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+/* caja chica inicio */
+  .caja_chica {
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+
+  .travel_point {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .travel_point-titulo {
+      height: 28px;
+      font-family: "Roboto";
+      font-size: 1.438em;
+      font-weight: bold;
+      letter-spacing: 4.6px;
+      color: #f85e9f;
+      text-transform: uppercase;
+  }
+
+  .travel_point-description {
+    font-size: 2.75em;
+    flex-wrap: wrap;
+    width: 18ch;
+    font-weight: bold;
+  }
+
+  .cuadrados {
+    border: solid;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 32px;
+    justify-content: flex-start;
+  }
+
+  .cuadrado1,
+  .cuadrado2 {
+    display: flex;
+    flex-direction: column;
+    height: 151px;
+    padding: 32px;
+    align-items: center;
+    gap: 16px;
+    border: solid 1px rgba(25, 24, 37, 0.1);
+    border-radius: 32px;
+  }
+
+  .numeros {
+    font-size: 2.188em;
+    color: #ff5722;
+    font-weight: bold;
+  }
+
+  .letras {
+    font-size: 1.125em;
+  }
+
+  .letras::first-letter {
+    text-transform: capitalize;
+  }
+  /* caja chica fin */
+  /* caja iglesia inicio */
+.caja_iglesia {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  margin-right: 70px;
+  margin-left: 50px;;
+}
+
+.mejores_servicios {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.lorem_titulo {
+  font-size: 1.438em;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #f85e9f;
+  letter-spacing: 0.288em;
+}
+
+.mejores_servicios-texto {
+  font-size: 2.75em;
+}
+
+.mejores_servicios-texto::first-letter{
+  text-transform: capitalize;
+}
+
+.iconos_con_texto {
+  display: flex;
+  flex-direction: column;
+  border: solid;
+}
+
+.iconomapa,
+.iconocalendar,
+.iconoticket {
+  display: flex;
+  padding: 32px;
+  gap: 32px;
+}
+
+.lorem1,
+.lorem2,
+.lorem3 {
+  font-size: 1.75em;
+  text-transform: capitalize;
+}
+
+  /* caja iglesia fin */
+  .iglesia{
+    width: 693px;
+    height: 869px
+  }
+
+  .chica {
+    width: 871px;
+    height: 697px;
+  }
+}
 /*Fin landing_mobile.html main Cande*/
