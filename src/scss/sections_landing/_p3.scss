@@ -23,7 +23,7 @@
   display: none;
 }
 
-@media (min-width: 768px) and (max-width: 1200px) {
+@media (width > 768px) {
   .imagenes_predefinidas {
   width: 100vw;
   display: flex;
@@ -50,6 +50,7 @@
   .caja_iglesia {
     display: none;
   }
+ 
   }
 
 @media (width > 1200px) {
@@ -187,5 +188,7 @@
     width: 871px;
     height: 697px;
   }
+
 }
+
 /*Fin landing_mobile.html main Cande*/

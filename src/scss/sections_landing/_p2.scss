@@ -1,5 +1,10 @@
 /*comienzo landing_mobile.html main Rosana*/
-
+  .top-destinos {
+    color: #f85e9f;
+    margin-top: 64px;
+    font-size: 1.438rem;
+    margin-left: 80px;
+  }
 .p2_card img {
     width: 300px;
     background-color: white;
@@ -32,3 +37,27 @@
   }
   
   /*Fin landing_mobile.html main Rosana*/
+
+@media (width > 1200px){
+  .p2_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 100px;
+    margin-left: 80px;
+    align-items: end;
+    margin-bottom: 64px;
+    text-align: left;
+  }
+  .top-destinos {
+    color: #f85e9f;
+    margin-top: 64px;
+    font-size: 1.438rem;
+    margin-left: 80px;
+  }
+  .p2_maintop{
+    width: 400px;
+  }
+  .p2_card img{
+    width: 400px;
+  }
+}
