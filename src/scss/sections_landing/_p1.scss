@@ -6,8 +6,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px;
   gap: 15px;
+  margin-left: 3rem;
 }
 .ocean {
   height: 154px;
@@ -25,6 +25,56 @@
   font-size: 32px;
   width: 85%;
   text-align: center;
+}
+.travel {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+}
+.top {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #f85e9f;
+}
+.viajes {
+  display: none;
+}
+.get {
+  box-sizing: border-box;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  background-color: #5d50c6;
+  border-radius: 100px;
+  width: 398px;
+  height: 65px;
+  margin-top: 30px;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+@media (width> 480px) {
+}
+.fotos {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.travel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: first baseline;
 }
 .travel {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -59,15 +109,4 @@
   justify-content: center;
   align-items: center;
   padding: 16px;
-}
-@media (width> 480px) {
-  .travel {
-    display: flex;
-    justify-content: space-between;
-    margin: 32px;
-    align-items: center;
-    font-size: 32px;
-    width: 85%;
-    text-align: center;
-  }
 }
